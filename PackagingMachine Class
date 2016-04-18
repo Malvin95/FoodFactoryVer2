@@ -1,0 +1,38 @@
+public class PackagingMachine {
+priavte String name;
+private String type;
+private int spoilTime;
+
+
+
+public PackagingMachine(String name, String type){
+this.type = type;
+isSpoilt = false;
+}
+
+public getFoodType(string){
+return type;
+}
+
+
+public boolean isExpired(){
+if(object.pName.(isSpoilt == true)){
+object.discard();
+
+}
+}
+
+
+public void findQueue(){
+
+}
+public void packing(){
+}
+
+public void isFinished(){
+
+}
+
+
+
+}
