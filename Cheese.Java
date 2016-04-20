@@ -1,4 +1,9 @@
-
+/**
+ *  The Perishable Class : class which groups perishable food
+ * @author : Malvin Harding
+ */
+ 
+ 
 public class Cheese extends Perishable{
   
   private String Name;
