@@ -1,6 +1,11 @@
 
 public class BlueCheese extends Perishable{
-  
+  /**
+   * The Perishable class : class which groups perishable food
+   * @author : Malvin Harding
+   */
+   
+   
   private String Name;
   private int time;
   private Boolean isSpoilt;
