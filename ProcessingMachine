@@ -24,11 +24,11 @@ public void processing(){ //main processing method
 		this.type = this.foodqueue(); //takes food in queue into the machine
 		}
 	
-	if(this.pTime >= PROCESS_TIME){ //main processing method
+	if(this.prTime >= PROCESS_TIME){ //main processing method
 		Food foodreturned = this.type; 
 		this.nextFood(this.type); // moves to the next item in the queue
 		this.prTime = 0;
-		return foodReturned; //packing has ben completed
+		return foodReturned; //processing has been completed
 		}
 	
     else if (this.type != null){ //holds food till process is completed
@@ -36,10 +36,7 @@ public void processing(){ //main processing method
 
 		}
 		return null
-		
-		}
-
-
+                }
 
 
 
