@@ -21,7 +21,7 @@ super(probablity, rndm); // the objects are constructed from superclass values
 
 
 public void packing(){ // main packing method
-this.jam(); ///checks to see if machine will jam
+this.jam(); //checks to see if machine will jam
 if (this.type == null && !this.foodQueue.isEmpty(){
 this.type = this.foodqueue(); //takes food in queue into the machine
 }
