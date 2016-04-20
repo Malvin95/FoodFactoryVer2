@@ -1,4 +1,9 @@
 
+/**
+ *  The SoupPowder class : gives information on the soup powder class 
+ * @author : Malvin Harding
+ */
+ 
 public class SoupPowder extends NonPerishable{
   
   private String Name;
