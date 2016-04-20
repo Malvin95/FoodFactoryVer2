@@ -1,0 +1,23 @@
+
+public class ProcessingMachine {
+	private int ProcessTime;
+	private Product p;
+	private Boolean Processed;
+	private Boolean Spoiled;
+	
+
+public ProcessingMachine(int ProcessTime,Product p){
+  
+}
+
+public boolean isProcessed(){
+	if(p.isprocessed= true){
+	return p.isProcessed;
+}
+}
+
+public boolean hasSpoiled(){
+	if(p.hasSpoiled= true){
+	return p.hasSpoiled;
+}
+}
