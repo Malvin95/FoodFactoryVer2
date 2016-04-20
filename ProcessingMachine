@@ -1,4 +1,12 @@
-import java.util.Random;
+import java.util.Random
+/**
+*The ProcessingMachine class : class responsible for processing food.
+*author : Nelson Poon
+*/
+
+* @param: probablility of a jam happening (double) inherited from super class
+* @param : rndm : generates a random item out of queue to begin processing
+*/
 public class ProcessingMachine {
 	static final int Process_Time1 = 20;
 	static final int Process_Time2 = 22;
