@@ -1,18 +1,16 @@
-/**
- *  The Product Class : class which tells information about whether the product has been packed and processed
- * @author Malvin Harding
- */
- 
+
 public class Product
 {
-
+	private String pName;
 	private String type;
 	private double Cost;
 	private Boolean Processed;
 	private Boolean Packed;
+	private double prob;
 
-	public Product()
+	public Product(String name, String Type, double prob)
 	{
+		pName = name;
 		Cost = 0.20;
 		Processed = false;
 		Packed = false;
@@ -51,6 +49,24 @@ public class Product
 	public void togglePack()
 	{
 		Packed = !Packed;
+	}
+	
+	public void setProb(double p)
+	{
+		if(p > 1)
+		{
+			p = p/100;
+			prob = p;
+		}
+		else
+		{
+			prob = p;
+		}
+	}
+	
+	public double checkProb()
+	{
+	    return prob;
 	}
 
 }
