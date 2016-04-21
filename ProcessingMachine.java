@@ -14,8 +14,8 @@ public class ProcessingMachine {
 	
 	
 
-public ProcessingMachine(double probability,Random rndm){
-	super(probability, rndm);
+public ProcessingMachine(double prob,Random rndm){
+	super(prob, rndm);
 }
 
 public void processing(){ //main processing method
