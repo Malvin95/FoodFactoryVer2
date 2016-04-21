@@ -11,7 +11,7 @@ private Random rndm;
 private double probability;
 
 public Machine(){
-
+super.
 }
 
 public Random random(){
