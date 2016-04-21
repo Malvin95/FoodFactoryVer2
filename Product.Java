@@ -1,4 +1,8 @@
-
+/**
+ *  The Product Class : class which tells information about whether the product has been packed and processed
+ * @author Malvin Harding
+ */
+ 
 public class Product
 {
 
