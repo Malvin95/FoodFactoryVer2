@@ -1,6 +1,8 @@
 import java.util.Random
 
 /**
+The Machine class: A superclass which controls the processing and packaging classes
+@author: David Bosun-Arebuwa 
 */
 
 public class Machine;
