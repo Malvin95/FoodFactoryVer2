@@ -1,11 +1,10 @@
 
 public class NonPerishable extends Product
 {
-
-	private String pName;
-	public double prob;
-
-	public NonPerishable()
+	
+	protected double q; // The probability set for NonPerishable products occurring.
+	
+	public NonPerishable(String name, String Type, )
 	{
 
 	}
@@ -18,19 +17,6 @@ public class NonPerishable extends Product
 	public String getName()
 	{
 		return pName;
-	}
-
-	public void setProb(double p)
-	{
-		if(p > 1)
-		{
-			p = p/100;
-			prob = p;
-		}
-		else
-		{
-			prob = p;
-		}
 	}
 
 }
