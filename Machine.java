@@ -1,24 +1,30 @@
-import java.util.Random
+import java.util.Random;
 
 /**
 The Machine class: A superclass which controls the processing and packaging classes
 @author: David Bosun-Arebuwa 
 */
 
-public class Machine;
-super();
-private Random rndm;
-private double probability;
+public class Machine{
+	private Random rndm;
+	private double prob;
 
-public Machine(){
-super.
-}
+	public Machine(){
+	}
 
-public Random random(){
-Random rndm = new Random();
-}
+	public Machine(double probability, Random random) {
+		// TODO Auto-generated constructor stub
+		prob = probability;
+		rndm = random;
+	}
 
-public double getProbabality(){
-return probabiliity;
+	public void random()
+	{
+		Random rndm = new Random();
+	}
 
+	public double getProb()
+	{
+		return prob;
+	}
 }
