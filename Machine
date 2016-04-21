@@ -16,5 +16,7 @@ public Random random(){
 Random rndm = new Random();
 }
 
-public double prob(){
+public double getProbabality(){
+return probabiliity;
+
 }
