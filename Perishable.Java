@@ -3,18 +3,14 @@ public class Perishable extends Product
 {
 
 	private int time;
-	private String pName;
 	protected boolean isSpoilt;
-	protected double prob;
+	protected double prob;// 'p' is the probability of Perishable products occurring.
 
-	public Perishable()
+	public Perishable(String name, String Type, int time, double p)
 	{
+		super(name, Type, time);
 		isSpoilt = false;
-	}
-
-	public void setName(String name)
-	{
-		pName = name;
+		prob = p;
 	}
 
 	public String getName()
@@ -30,19 +26,6 @@ public class Perishable extends Product
 			{
 				isSpoilt = true;
 			}
-		}
-	}
-
-	public void setProb(double p)
-	{
-		if(p > 1)
-		{
-			p = p/100;
-			prob = p;
-		}
-		else
-		{
-			prob = p;
 		}
 	}
 }
